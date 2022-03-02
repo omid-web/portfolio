@@ -19,21 +19,21 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Let's make an impact!</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href="https://github.com/omid-jan" target="_blank" rel="noopener noreferrer">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://linkedin.com/in/omidjan" target="_blank" rel="noopener noreferrer">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com/omidjan__" target="_blank" rel="noopener noreferrer">
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://twitter.com/omidjan__" target="_blank" rel="noopener noreferrer">
-          <AiFillTwitterCircle size="3rem" />
-        </SocialIcons>
+          <SocialIcons href="https://linkedin.com/in/omidjan" target="_blank" rel="noopener noreferrer">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com/afghan-tech-bro" target="_blank" rel="noopener noreferrer">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://instagram.com/afghan.tech.bro" target="_blank" rel="noopener noreferrer">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://twitter.com/afghan_tech_bro" target="_blank" rel="noopener noreferrer">
+            <AiFillTwitterCircle size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

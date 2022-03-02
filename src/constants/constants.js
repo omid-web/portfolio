@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Afghan Linkedin',
+    description: "A lite job site, built with Vue, Google Firebase and multiple APIs. Allows users to register and find Afghan professionals and businesses.",
+    image: '/images/afghan-linkedin.png',
+    tags: ['Vue', 'tailwind', 'Google Firebase'],
+    source: 'https://github.com/afghan-tech-bro/afghan-linkedin',
+    visit: 'http://afghan-linkedin.com/',
+    id: 0,
+  },
+  {
     title: 'Cryptoverse',
     description: "A single page web app, built with React and multiple APIs, that provides a glimpse into the world of cryptocurrency.",
     image: '/images/crypto.png',
-    tags: ['React'],
-    source: 'https://github.com/omid-jan/cryptoapp',
+    tags: ['React', 'antd'],
+    source: 'https://github.com/afghan-tech-bro/cryptoapp',
     visit: 'http://cryptoapp.omidjan.ca/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Local Library',
@@ -14,17 +23,17 @@ export const projects = [
     image: '/images/express-library.png',
     tags: ['Nodejs', 'mongodDB', 'Heroku', 'pug'],
     visit: 'https://express-library-omid.herokuapp.com/catalog',
-    source: 'https://github.com/omid-jan/express-locallibrary.git',
-    id: 1,
+    source: 'https://github.com/afghan-tech-bro/express-locallibrary.git',
+    id: 2,
   },
   {
     title: 'Jamming',
     description: 'User can search for music then add selected music to a new playlist on their Spotify account.',
-    image: '/images/Jamming.png',
-    tags: ['React', 'Nodejs'],
+    image: '/images/jamming.png',
+    tags: ['React'],
     visit: 'http://listify.surge.sh/',
-    source: 'https://github.com/omid-jan/listify',
-    id: 2,
+    source: 'https://github.com/afghan-tech-bro/listify',
+    id: 3,
   },
 /*   {
     title: 'MERN Memories',
@@ -66,7 +75,7 @@ export const projects = [
 
 
 export const TimeLineData = [
-  {year: 2018, text: "Resumed my bachelors at University of Toronto"},
-  {year: 2020, text: "Completed my bachelors of Computer Science and Statistics"},
-  {year: 2020, text: "Started working full-time as a web developer"},
+  {year: 2020, text: "Completed bachelors of Computer Science and Statistics @UofT", link: "https://web.cs.toronto.edu/"},
+  {year: 2020, text: "Full-stack developer @Q2", link: "https://q2management.com/"},
+  {year: 2021, text: "Software developer @Xe", link: "https://www.xe.com/"}
 ];

@@ -12,9 +12,9 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        This is a collection of my past projects and an overview of my skillsets.
+        View some of my projects and skillsets.
       </SectionText>
-      {/* <Button onClick={() => window.location = 'https://google.ca'}>Learn More</Button> */}
+      <Button onClick={() => window.location = '#projects'}>Learn More</Button>
     </LeftSection>
   </Section>
 );
