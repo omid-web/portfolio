@@ -52,7 +52,7 @@ const Timeline = () => {
         My name is Omid Rajabi. <br />
         I enjoy solving algorithm problems and developing apps using new technologies that I come across.
       </SectionText>
-      <Button onClick={() => window.open("/images/OmidRajabi_Resume2021.pdf")}>
+      <Button onClick={() => window.open("/images/_Omid_Rajabi_Resume.pdf")}>
         Resume
       </Button>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

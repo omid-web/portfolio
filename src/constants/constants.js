@@ -75,7 +75,7 @@ export const projects = [
 
 
 export const TimeLineData = [
-  {year: 2020, text: "Completed bachelors of Computer Science and Statistics @UofT", link: "https://web.cs.toronto.edu/"},
+  {year: 2020, text: "Graduated Bachelor of CS degree @UofT", link: "https://web.cs.toronto.edu/"},
   {year: 2020, text: "Full-stack developer @Q2", link: "https://q2management.com/"},
   {year: 2021, text: "Software developer @Xe", link: "https://www.xe.com/"}
 ];
