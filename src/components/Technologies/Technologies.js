@@ -9,62 +9,81 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies, mainly in the web development world. From front-end to back-end.
+      Most Technologies I worked with have been in web dev.
     </SectionText>
     <List>
       <ListItem>
         <RowIcons>
-          {/* <DiHtml5 size="3rem" />
-          <DiCss3 size="3rem" /> */}
+          <DiHtml5 size="3rem" />
+          <DiCss3 size="3rem" />
           <DiReact size="3rem" />
           <DiAngularSimple size="3rem" />
         </RowIcons>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js, Redux, React native, Angular, MUI(Material-UI)
+            React.js/Redux, React native, Vue/Vuex, Angular
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <RowIcons>
-          <DiFirebase size="3rem" />
           <DiNodejsSmall size="3rem" />
-          {/* <DiMysql size="3rem" />
-          <DiMongodb size="3rem" /> */}
         </RowIcons>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases (Mysql, mongoDB)
+            Node.js, ASP.Net Core
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      
+      
+      <ListItem>
+        <RowIcons>
+          <DiFirebase size="3rem" />
+          <DiMysql size="3rem" />
+          <DiMongodb size="3rem" />
+          <DiZend size="3rem" />
+        </RowIcons>
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>
+            Mysql, mongoDB
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
       <ListItem>
         <RowIcons>
           <DiAndroid size="3rem" />
-          <DiHaskell size="3rem" />
-          {/* <DiHeroku size="3rem" /> */}
         </RowIcons>
         <ListContainer>
           <ListTitle>Developer Tools</ListTitle>
           <ListParagraph>
-            Postman, VS Code, Eclipse, Android Studio, AWS, Heroku, Chai, Mocha
+            Android Studio, AWS, Jetbrains Rider, Visual Studio Code
           </ListParagraph>
         </ListContainer>
       </ListItem>
-{/*       <ListItem>
-        <DiZend size="3rem" />
+
+      <ListItem>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Libraries/Frameworks</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Tools like Figma
+            Chai, Mocha
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
+
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Methodologies</ListTitle>
+          <ListParagraph>
+            Object-oriented design (OOD), Design patterns, Test-driven development (TDD), Model view controller (MVC)
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
     </List>
   </Section>
 );

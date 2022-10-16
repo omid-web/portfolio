@@ -49,10 +49,11 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        My name is Omid Rajabi. <br />
-        I enjoy solving algorithm problems and developing apps using new technologies that I come across.
+        Expert in Javascript frameworks and web dev.
+        <br />
+        Passionate about programming languages, compilers, distributed systems and scalability.
       </SectionText>
-      <Button onClick={() => window.open("/images/_Omid_Rajabi_Resume.pdf")}>
+      <Button onClick={() => window.open("/images/Omid_Rajabi_Resume.pdf")}>
         Resume
       </Button>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

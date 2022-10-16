@@ -25,13 +25,10 @@ const Footer = () => {
           <SocialIcons href="https://linkedin.com/in/omidjan" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com/afghan-tech-bro" target="_blank" rel="noopener noreferrer">
+          <SocialIcons href="https://github.com/omid-web" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com/afghan.tech.bro" target="_blank" rel="noopener noreferrer">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://twitter.com/afghan_tech_bro" target="_blank" rel="noopener noreferrer">
+          <SocialIcons href="https://twitter.com/Omidjan__" target="_blank" rel="noopener noreferrer">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
